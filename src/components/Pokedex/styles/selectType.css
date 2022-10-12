@@ -1,0 +1,15 @@
+select{
+    font-size: 20px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    display: flex;
+    align-self: center;
+    background-color: cornflowerblue;
+    
+}
+
+.option_box  {
+   font-size: 20px;
+   background:cornflowerblue
+}

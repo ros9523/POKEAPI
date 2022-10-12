@@ -1,0 +1,54 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main_card{
+    max-width:600px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+
+.main_card__elements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 180px;
+   
+}
+
+.element{
+    font-size: 22px;
+}
+
+.pokedex_card{
+   width: 300px;
+   object-fit: contain;
+}
+.pikachu_card{
+    height: 200px;
+    
+}
+
+form{
+    text-align: center;
+}
+
+
+@media (min-width:700px) {
+
+    .main_card__elements{
+       width: 100vw;
+       height: 100vh;
+       margin: auto;
+       
+    }
+    
+}
